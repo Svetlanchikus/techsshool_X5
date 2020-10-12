@@ -3,8 +3,8 @@ package lesson_3.Task_2_Animal;
 import lesson_3.Task_2_Animal.Animal;
 
 public class Dog extends Animal {
-    protected float weight;
-    protected boolean trained;
+    private float weight;
+    private boolean trained;
 
     public Dog(String food, String location, float weight, boolean trained) {
         super(food, location);

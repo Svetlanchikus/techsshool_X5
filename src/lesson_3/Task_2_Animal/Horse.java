@@ -3,7 +3,7 @@ package lesson_3.Task_2_Animal;
 import lesson_3.Task_2_Animal.Animal;
 
 public class Horse extends Animal {
-    protected float speed;
+    private float speed;
 
     public Horse(String food, String location, float speed) {
         super(food, location);

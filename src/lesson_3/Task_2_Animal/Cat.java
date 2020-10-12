@@ -3,7 +3,7 @@ package lesson_3.Task_2_Animal;
 import lesson_3.Task_2_Animal.Animal;
 
 public class Cat extends Animal {
-    protected boolean catchesMice;
+    private boolean catchesMice;
 
     public Cat(String food, String location, boolean catchesMice) {
         super(food, location);

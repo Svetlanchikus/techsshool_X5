@@ -2,9 +2,9 @@ package lesson_3.Task_1_Phone;
 
 public class Phone {
 
-    protected String number;
-    protected String model;
-    protected float weight;
+    private String number;
+    private String model;
+    private float weight;
 
     public Phone(String number, String model, float weight) {
         this(number, model);

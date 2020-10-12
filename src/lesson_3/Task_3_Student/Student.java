@@ -6,7 +6,7 @@ public class Student {
     protected String firstName;
     protected String lastName;
     protected int group;
-    protected double averageMark;
+    private double averageMark;
 
     public Student(String firstName, String lastName, int group) {
         this.firstName = firstName;

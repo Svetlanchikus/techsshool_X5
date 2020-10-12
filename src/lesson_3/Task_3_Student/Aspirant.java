@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Aspirant extends Student {
 
-    protected String scientificWork;
+    private String scientificWork;
 
     public String getScientificWork() {
         return scientificWork;
