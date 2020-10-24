@@ -1,8 +1,13 @@
 package Lesson_4.Task_2;
 
-public abstract class Engine {
-    protected float power;
-    protected String manufacturer;
+public class Engine {
+    private float power;
+    private String manufacturer;
+
+    public Engine(float power, String manufacturer) {
+        this.power = power;
+        this.manufacturer = manufacturer;
+    }
 
     public float getPower() {
         return power;

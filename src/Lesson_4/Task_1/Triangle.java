@@ -3,14 +3,19 @@ package Lesson_4.Task_1;
 import java.util.Scanner;
 
 public class Triangle implements Shape {
+    private float a;
+    private float b;
+    private float c;
+
+    public Triangle(float a, float b, float c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+    }
 
     @Override
     public double square() {
-        System.out.println("Укажите, пожалуйста, длины трех сторон треугольника ");
-        Scanner in = new Scanner(System.in);
-        float a = in.nextFloat();
-        float b = in.nextFloat();
-        float c = in.nextFloat();
         return (a + b + c) / 2;
     }
+
 }

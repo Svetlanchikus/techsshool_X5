@@ -1,10 +1,10 @@
 package Lesson_4.Task_2;
 
 public class Lorry extends Car {
-    protected float liftingСapacity;
+    private float liftingСapacity;
 
-    public Lorry(String carBrand, String carClass, float weight, String engineType, float liftingСapacity) {
-        super(carBrand, carClass, weight, engineType);
+    public Lorry(String carBrand, String carClass, float weight, float power, String manufacturer, float liftingСapacity) {
+        super(carBrand, carClass, weight, power, manufacturer);
         this.liftingСapacity = liftingСapacity;
     }
 
