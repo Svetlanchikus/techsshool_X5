@@ -1,0 +1,10 @@
+package Lesson_5.Computer;
+
+public class StorageDeviceSuperPowerful extends StorageDevice {
+    public StorageDeviceSuperPowerful() {
+        this.Manufacturer = "SeaGate";
+        this.memorySize = 3.2;
+        this.driveHDD = "SSD";
+        this.formFactor = 2.5;
+    }
+}
