@@ -1,0 +1,10 @@
+package Lesson_5.Computer;
+
+public class VideoCardPowerful extends VideoCard {
+    public VideoCardPowerful() {
+        this.Manufacturer = "NVIDIA";
+        this.memorySize = 6;
+        this.memoryType = "GDDR5";
+        this.activeCooling = true;
+    }
+}
