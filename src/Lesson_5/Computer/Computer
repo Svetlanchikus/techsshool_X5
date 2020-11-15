@@ -1,0 +1,53 @@
+package Lesson_5.Computer;
+
+public class Computer {
+    private CompType type;
+
+    public Computer(CompType type) {
+        this.type = type;
+    }
+
+    public void turnOn() {
+        Monitor monitor = new Monitor();
+        CPU cpu = null;
+        RAM ram = null;
+        StorageDevice storageDevice = null;
+        VideoCard videoCard = null;
+
+        switch (type) {
+            case Personal:
+                monitor.runComponent();
+                cpu = new CPUUsual();
+                cpu.runComponent();
+                ram = new RAMUsual();
+                ram.runComponent();
+                storageDevice = new StorageDeviceUsual();
+                storageDevice.runComponent();
+                videoCard = new VideoCardUsual();
+                videoCard.runComponent();
+                break;
+            case Working:
+                monitor.runComponent();
+                cpu = new CPUPowerful();
+                cpu.runComponent();
+                ram = new RAMPowerful();
+                ram.runComponent();
+                storageDevice = new StorageDevicePowerful();
+                storageDevice.runComponent();
+                videoCard = new VideoCardPowerful();
+                videoCard.runComponent();
+                break;
+            case VideoEditing:
+                monitor.runComponent();
+                cpu = new CPUSuperPowerful();
+                cpu.runComponent();
+                ram = new RAMSuperPowerful();
+                ram.runComponent();
+                storageDevice = new StorageDeviceSuperPowerful();
+                storageDevice.runComponent();
+                videoCard = new VideoCardSuperPowerful();
+                videoCard.runComponent();
+                break;
+        }
+    }
+}
