@@ -1,0 +1,10 @@
+package Lesson_5.Computer;
+
+public class RAMPowerful extends RAM{
+    public RAMPowerful() {
+        this.Manufacturer = "Kingston";
+        this.memorySize = 4;
+        this.frequency = 1600;
+        this.memoryType = "DDR3";
+    }
+}
