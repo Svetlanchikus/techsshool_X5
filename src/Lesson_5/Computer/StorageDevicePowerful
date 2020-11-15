@@ -1,0 +1,10 @@
+package Lesson_5.Computer;
+
+public class StorageDevicePowerful extends StorageDevice {
+    public StorageDevicePowerful() {
+        this.Manufacturer = "WD";
+        this.memorySize = 2;
+        this.driveHDD = "SSD";
+        this.formFactor = 3.5;
+    }
+}
