@@ -1,0 +1,21 @@
+package Lesson_5.Computer;
+
+public abstract class StorageDevice implements ComputerComponents {
+    protected String Manufacturer;
+    protected double memorySize;
+    protected String driveHDD;
+    protected double formFactor;
+
+    @Override
+    public void runComponent() {
+        System.out.println("Происходит подача тока в накопитель");
+    }
+
+    @Override
+    public void getInfo() {
+        System.out.println("Производитель " + Manufacturer +
+                " , Объем памяти " + memorySize +
+                " ТБ, тип памяти " + driveHDD +
+                " , Форм-фактор " + formFactor);
+    }
+}
