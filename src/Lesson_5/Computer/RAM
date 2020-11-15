@@ -1,0 +1,21 @@
+package Lesson_5.Computer;
+
+public abstract class RAM implements ComputerComponents{
+    protected String Manufacturer;
+    protected double memorySize;
+    protected double frequency;
+    protected String memoryType;
+
+    @Override
+    public void runComponent() {
+        System.out.println("Происходит подача тока в оперативную память");
+    }
+
+    @Override
+    public void getInfo() {
+        System.out.println("Производитель " + Manufacturer +
+                ", Тактовая частота " + frequency +
+                " ГГц, Объем памяти " + memorySize +
+                " ГБ, Тип " + memoryType);
+    }
+}
