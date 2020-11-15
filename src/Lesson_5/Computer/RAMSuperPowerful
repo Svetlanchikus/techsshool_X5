@@ -1,0 +1,10 @@
+package Lesson_5.Computer;
+
+public class RAMSuperPowerful extends RAM {
+    public RAMSuperPowerful() {
+        this.Manufacturer = "Corsair";
+        this.memorySize = 16;
+        this.frequency = 3800;
+        this.memoryType = "DDR4";
+    }
+}
