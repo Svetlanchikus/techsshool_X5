@@ -1,0 +1,10 @@
+package Lesson_5.Computer;
+
+public class RAMUsual extends RAM {
+    public RAMUsual() {
+        this.Manufacturer = "Apacer";
+        this.memorySize = 4;
+        this.frequency = 1024;
+        this.memoryType = "DDR3";
+    }
+}
