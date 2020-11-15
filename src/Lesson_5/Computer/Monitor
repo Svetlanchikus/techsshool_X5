@@ -1,0 +1,15 @@
+package Lesson_5.Computer;
+
+public class Monitor implements ComputerComponents {
+    private String Manufacturer = "HP";
+
+    @Override
+    public void runComponent() {
+        System.out.println("Монитор включен");
+    }
+
+    @Override
+    public void getInfo() {
+        System.out.println("Производитель " + Manufacturer);
+    }
+}
