@@ -1,0 +1,10 @@
+package Lesson_5.Computer;
+
+public class VideoCardSuperPowerful extends VideoCard {
+    public VideoCardSuperPowerful() {
+        this.Manufacturer = "NVIDIA";
+        this.memorySize = 16;
+        this.memoryType = "HBM2";
+        this.activeCooling = true;
+    }
+}
