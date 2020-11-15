@@ -1,0 +1,10 @@
+package Lesson_5.Computer;
+
+public class CPUSuperPowerful extends CPU{
+    public CPUSuperPowerful() {
+        this.clockFrequency = 4;
+        this.numberOfCores = 18;
+        this.memoryCache = 4.60;
+        this.name = "Core X";
+    }
+}
