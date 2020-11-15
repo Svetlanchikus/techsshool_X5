@@ -1,0 +1,21 @@
+package Lesson_5.Computer;
+
+public abstract class VideoCard implements ComputerComponents {
+    protected String Manufacturer;
+    protected double memorySize;
+    protected String memoryType;
+    protected boolean activeCooling;
+
+    @Override
+    public void runComponent() {
+        System.out.println("Происходит подача тока в видеокарту");
+    }
+
+    @Override
+    public void getInfo() {
+        System.out.println("Производитель " + Manufacturer +
+                ", Объем памяти " + memorySize +
+                " ГБ, Тип памяти " + memoryType +
+                " Активное охлождение " + activeCooling);
+    }
+}
