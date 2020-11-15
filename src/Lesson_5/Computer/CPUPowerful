@@ -1,0 +1,10 @@
+package Lesson_5.Computer;
+
+public class CPUPowerful extends CPU{
+    public CPUPowerful() {
+        this.clockFrequency = 3;
+        this.numberOfCores = 6;
+        this.memoryCache = 1024;
+        this.name = "Core i7";
+    }
+}
