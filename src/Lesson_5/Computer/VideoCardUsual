@@ -1,0 +1,10 @@
+package Lesson_5.Computer;
+
+public class VideoCardUsual extends VideoCard {
+    public VideoCardUsual() {
+        this.Manufacturer = "Sinotex";
+        this.memorySize = 1;
+        this.memoryType = "GDDR3";
+        this.activeCooling = true;
+    }
+}
