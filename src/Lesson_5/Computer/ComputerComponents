@@ -1,0 +1,7 @@
+package Lesson_5.Computer;
+
+public interface ComputerComponents {
+    public void runComponent();
+
+    public void getInfo();
+}
