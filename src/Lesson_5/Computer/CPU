@@ -1,0 +1,23 @@
+package Lesson_5.Computer;
+
+public abstract class CPU implements ComputerComponents {
+    protected String Manufacturer = "Intel";
+    protected double clockFrequency;
+    protected int numberOfCores;
+    protected double memoryCache;
+    protected String name;
+
+    @Override
+    public void runComponent() {
+        System.out.println("Происходит подача тока в процессор");
+    }
+
+    @Override
+    public void getInfo() {
+        System.out.println("Производитель " + Manufacturer +
+                ", Частота процессора " + clockFrequency +
+                " ГГц, Кол-во ядер " + numberOfCores +
+                " Объем кеш памяти " + memoryCache +
+                " Кб, Название " + name);
+    }
+}
