@@ -1,7 +1,0 @@
-package Lesson_5.Computer;
-
-public enum CompType {
-    Personal,
-    Working,
-    VideoEditing
-}
